@@ -2,7 +2,7 @@ import { useParams } from 'react-router';
 import { useState, useEffect} from 'react';
 import Blog from '../components/BlogArticle';
 
-export default function SingleBlogView(props) {
+export default function SingleBlogView({ user }) {
 
     let { blogId } = useParams();
 
@@ -22,7 +22,7 @@ export default function SingleBlogView(props) {
 
     return (
         <> 
-            {blog.data ? <Blog blog={blog.data} /> : <> Loading </>}
+            {blog.data ? <Blog blog={blog.data} user={user} /> : <> Loading </>}
             
             
         </>
