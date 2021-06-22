@@ -33,6 +33,15 @@ body {
   background-color: #e9e6e4;
 }
 
+.read-more-btn {
+  border: none;
+  padding: 4px 15px 4px 15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
+  background-color: brown;
+  color: white;
+}
+
 i {
   padding-right: 10px;
 }
