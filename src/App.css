@@ -1,5 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
+body {
+  background-color: #d4d4d4;
+}
+
 .navbar {
   background-color: #191919 !important;
 }
@@ -12,4 +16,23 @@
 #loginLogo {
   padding: 10px !important;
   width: 400px;
+}
+
+.badge {
+  margin-right: 4px;
+  background-color: brown !important;
+  color: white !important;
+}
+
+#breadcrumb-container {
+  padding-top: 15px;
+}
+
+.card {
+  margin: 10px;
+  background-color: #e9e6e4;
+}
+
+i {
+  padding-right: 10px;
 }
